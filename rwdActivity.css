@@ -26,7 +26,6 @@ ul {
 }
 
 ul li {
-    display: inline;
     list-style-type: none;
 }
 
@@ -47,7 +46,7 @@ ul li a {
 
 
 /* Media Query */
-
+/* mobile */
 @media screen and (max-width: 414px) {
     .container {
         flex-wrap: wrap;
@@ -63,4 +62,13 @@ ul li a {
         justify-content: space-evenly;
         margin-left: -25px;
     }
+}
+
+/* tablet */
+@media screen and (min-width: 415px) and (max-width: 768px) {
+
+    ul {
+        justify-content: center;
+        justify-content: space-evenly;
+    } 
 }
