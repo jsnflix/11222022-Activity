@@ -59,11 +59,8 @@ ul li a {
     }
 
     ul {
-        gap: 10px;
-    }
-
-    ul li {
-        text-align: center;
-        margin: 0 auto 0 4px;
+        justify-content: center;
+        justify-content: space-evenly;
+        margin-left: -25px;
     }
 }
